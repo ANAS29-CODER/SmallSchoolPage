@@ -1,0 +1,584 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+header{
+
+    background-color: rgba(20, 20, 20, 0.609);
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    height: auto;
+    
+   
+}
+header p{
+    color: rgb(253, 253, 0);
+    margin-top:8px;
+    font-size: 27px;
+    margin-left: 50px;
+    float: left;
+}
+header ul{
+    list-style: none;
+    
+}
+header ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-top:  12px;
+    font-size: 17px;
+    margin-right: 5px;
+    
+}
+header ul li a{
+    color: rgb(255, 255, 255);
+    transition-duration: 200ms;
+}
+header ul li a:hover{
+    text-decoration: none;
+    color: yellow;
+    border-bottom: solid 2px  yellow;
+    margin-top: -2px;
+   
+
+}
+@media (min-width:780px)and (max-width:1100px){
+    header p{
+        font-size: 22px;
+    margin-left: 27px;
+    }
+    .flex-row-reverse{
+        margin-top: 10px;
+    }
+    header .nav{
+        margin-top: -5px;
+        height: 50px;
+    }
+    header ul li {
+        margin-top: 3px;
+        font-size: 15px;
+    }
+}
+@media (min-width:615px)and (max-width:779px){
+    header p {
+
+        font-size: 21px;
+        margin-left: 30px;
+        
+    }
+    header ul li {
+        margin-top: 10px;
+        font-size: 12px;
+        margin-right: 0px;
+    }
+    
+}
+@media (max-width:614px){
+    header{
+        position: relative;
+        height: 170px;
+    }
+    header p {
+        font-size: 19px;
+        margin-left: 23px;
+        margin-top: 10px;
+        margin-bottom: 4px;
+        z-index: 2;
+    }
+    header .mp{
+        flex: none !important;
+        flex-direction: none !important;
+        z-index: 1;
+        position: absolute;
+        left: 1%;
+        top: 23%;
+    }
+    header ul{
+        position: relative;
+        flex-direction: column; padding: 0%;
+    }
+    .nav{
+        width: 607px;
+    }
+    header ul li {
+        margin-top: 3px;
+    font-size: 15px;
+    margin-right: 2px; padding: 0%;
+    }
+    .nav-pills .nav-link{
+        flex-direction: column;
+        padding: 0%;
+       margin-left: 16px;
+       width: 100%;
+    }
+    .nav-pills .nav-link:hover{
+        background-color: rgb(251, 251, 65);
+        color: rgb(10, 10, 10);
+    }
+}
+/******************   background-image: url("gr1.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;*/
+.mb{
+    background-color: yellow;
+    height: 631px;
+    width: 100%;
+    margin-top: 64px;
+    position: relative; 
+
+}
+.mb .img-fluid {
+    width: 1400px;
+    height: 100%;
+    opacity: .7;
+}
+.mb1{
+   
+    height: 631px;
+    width: 100%;
+    background-color: black
+    
+    
+}
+.mbin{
+    position: absolute;
+    left: 35%;
+    top: 30%;
+   color: white;
+    opacity: 1;
+    font-weight: bolder;
+    
+
+}
+.mbin h3{
+    margin-bottom: 0%;
+}
+.mbin h1{
+    font-size: 4.5rem;
+    margin-left: -50px;
+    color: yellow;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.mbin h1 small{
+    color: white;
+}
+.mbin button{
+    padding: 10px;
+    background-color: #ecec00;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 129px;
+    margin-top: 8px;
+    transition: background-color .5s;
+}
+.mbin button:hover{
+    background-color: #77772e;
+    
+}
+@media (min-width:1001px)and (max-width:1100px){
+    .mb{
+        margin-top:57px;
+    }
+}
+
+@media (min-width:780px)and (max-width:1000px){
+    .mb{
+        margin-top: 50px
+    }
+    .mbin{
+        position: absolute;
+        left: 35%;
+    }
+    .mbin h3{
+        font-size: 22px;
+    }
+    .mbin h1{
+        font-size: 60px;
+    }
+    .mbin button{
+        margin-left: 88px;
+    }
+}
+@media (min-width:615px)and (max-width:779px){
+    .mb{
+        margin-top:55px;
+    }
+    .mbin{
+        position: absolute;
+        left: 32%;
+    }
+    .mbin h3{
+        font-size: 17px;
+    }
+    .mbin h1{
+        font-size: 50px;
+    }
+    .mbin button{
+        margin-left: 70px;
+    }
+
+}
+@media (max-width:614px){
+    .mb{
+        margin-top:170px;
+    }
+    .mbin{
+        position: absolute;
+        left: 29%;
+    }
+    .mbin h3{
+        font-size: 15px;
+    }
+    .mbin h1{
+        font-size: 45px;
+    }
+    .mbin button{
+        margin-left: 50px;
+        padding: 5px;
+    }
+
+}
+
+
+.mb2{
+    background-color: rgb(18, 21, 75);
+    margin-top: 0%;
+    height:460px;
+   position: relative;
+}
+.mbin{
+    margin: 0 auto;
+}
+
+
+.countainer{
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    height: 95%;
+    overflow: hidden;
+    clear: both;
+   
+}
+
+.mbe{
+    height: 370px;
+    color: white;
+    border:2px solid black;
+  background-color: white;
+  width: 220px;
+  float: left;
+  margin-left: 34px;
+  margin-right: 11px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  transition: margin-top .5s;
+
+}
+
+.mbe:hover{
+   margin-top: 10px;
+}
+
+
+
+.mbe img{
+    height: 180px;
+    width: 100%;
+    border-top-right-radius:20px ;
+    border-top-left-radius:20px ;
+
+}
+.row .mb22 img{
+   padding-right: 0px;
+}
+.mbe h5{
+   text-align: center;
+   color: black;
+   margin-top: 10px;
+}
+.mbe p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 17px;
+    color: black;
+    padding: 4px;
+}
+.mbe a{
+    text-align: center;
+    margin-left: 52px;
+    margin-top: -1px;
+    background-color: #ff6a00;
+    color: white;
+}
+.mbe a:hover{
+    background-color: rgb(29, 27, 27);
+    color: white;
+}
+@media(min-width:872px) and (max-width:1156px){
+    .v4{
+position: absolute;
+top: 52%;
+    }
+ 
+ }
+@media(min-width:607px) and (max-width:1195px){
+    .mb2{
+  height: 850px;
+    }
+ 
+ }
+ @media(min-width:607px) and (max-width:871px){
+    .v4{
+        position: absolute;
+        top: 50%;
+     }
+    .v3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    }
+ 
+ }
+ @media(min-width:587px) and (max-width:606px){
+     .mb2{
+         height: 850px;
+     }
+    .v4{
+        position: absolute;
+        top: 50%;
+     }
+    .v3{
+        position: absolute;
+        top: 50%;;
+        left: 50%;
+    }
+ 
+ }
+ @media (min-width:392px) and (max-width:586px) {
+    .mb2 {
+        background-color: rgb(18, 21, 75);
+        margin-top: 0%;
+        height: 1750px;
+        position: relative;
+    }
+    .mb2 .countainer{
+        height: 1705px;
+    }
+    .mbin {
+        position: absolute;
+        left: 24%;
+        max-width: 258px;
+    }
+    .mbin h1 {
+        font-size: 38px;
+    }
+    .mbin h3 {
+        font-size: 14px;
+    }
+    
+    .countainer{
+        top: 2%;
+    }
+    .v2{
+        position: absolute;
+        top: 23%;
+    }
+    .v3{
+        position: absolute;
+        top: 46%;
+    }
+    .v4{
+        position: absolute;
+        top: 70%;
+    }
+
+    
+ }
+ @media(max-width:391px){
+    .mb2 {
+        background-color: rgb(18, 21, 75);
+        margin-top: 0%;
+        height: 1900px;
+        position: relative;
+    }
+    .mb2 .countainer{
+        height: 1799px;
+    }
+    .mbin {
+    position: absolute;
+    left: 26%;
+    max-width: 258px;
+}
+.mbin h1 {
+    font-size: 35px;
+}
+.mbin h3 {
+    font-size: 13px;
+}
+ }
+ @media(max-width:283px){
+    .mb2 {
+        background-color: rgb(18, 21, 75);
+        margin-top: 0%;
+        height: 1950px;
+        position: relative;
+    }
+    .mb2 .countainer{
+        height: 1811px;
+    }
+        header .mp{
+            max-width: 100%;
+        }
+        .countainer .mbe{
+            margin-left: 0px;
+            margin-right: 0px;
+            max-width: 87%;
+        }
+        .mbin {
+           
+          left:14%;
+          
+          
+        }
+        .mbin h3{
+            font-size: 11px;
+        }
+        .mbin h1{
+            font-size: 29px;
+            margin-left: -19px;
+        }
+        .mbin button {
+            margin-left: 22px;
+            padding: 2px;
+        }
+ }
+ @media(max-width:235px){
+    .mb2 {
+        background-color: rgb(18, 21, 75);
+        margin-top: 0%;
+        height: 2000px;
+        position: relative;
+    }
+    .mb2 .countainer{
+        height: 1901px;
+        left: 0%;
+        max-width: 98%;
+    }
+    .mbin {
+           
+        left:10%;
+        
+        
+      }
+      .mbin h3{
+          font-size: 9px;
+      }
+      .mbin h1{
+          font-size: 22px;
+          margin-left: -10px;
+      }
+      .mbin button {
+          margin-left: 16px;
+          padding: 2px;
+      }
+      .countainer .mbe {
+        margin-left: 6px;
+        margin-right: 0px;
+    }
+    .mbe {
+        max-width: 100%;
+    }
+     .v4{
+        height: 394px;
+    }
+    .mbe a {
+        text-align: center;
+        margin-left: 25%;
+        margin-top: -15px;
+        background-color: #ff6a00;
+        color: white;
+        max-width: 100px;
+        padding: 2px;
+    }
+   }
+
+   @media(max-width:191){
+    .mbe a {
+        text-align: center;
+        margin-left: 36px;
+        margin-top: -15px;
+        background-color: #ff6a00;
+        color: white;
+        width: 93px;
+        font-size: 12px;
+        padding: 4px;
+    }
+   }
+
+   /* last thing*
+   *****************/
+
+   .mb3{
+       height: 600px;
+       max-width: 100%;
+      position: relative;
+   }
+   .min{
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 1;
+    position: relative;
+   }
+  .mb3  .img-fluid{
+      width: 100%;
+     height: 100%;
+     
+
+    
+   }
+   .mb3 .min .opa{
+       height: 100%;
+       width: 100%;
+       z-index: 2;
+    top: 0%;
+    background-color: rgb(46, 46, 70);
+       margin-top: 0%;
+       position: absolute;
+       opacity: .55;
+   }
+   .mb3 .content{
+       z-index: 3;
+       position: absolute;
+       max-width: 400px;
+       top: 25%;
+       left: 5%;
+       color: white;
+       font-weight: bolder;
+       font-size:16px ;
+   }
+   .content .btn-primary {
+    color: #fff;
+    background-color: #db7e0b;
+    border-color: #db7e0b;
+    margin-left: 3px;
+    padding: 5px;
+    width: 89px;
+}
+
+footer{
+    height: 24px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+@media (max-width:227px){
+    footer{
+        font-size: 10px;
+    }
+}
